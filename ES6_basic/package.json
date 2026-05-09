@@ -1,0 +1,20 @@
+{
+  "name": "es6_basic",
+  "version": "1.0.0",
+  "description": "ES6 basic project",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest --passWithNoTests",
+  "lint": "eslint .",
+  "full-test": "npm run lint && npm run test"
+},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0"
+  }
+}
